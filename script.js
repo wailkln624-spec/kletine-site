@@ -369,6 +369,10 @@ function setLanguage(language) {
 
     document.body.dir =
         isArabic ? "rtl" : "ltr";
+    document.querySelector(".logo span").textContent =
+    isArabic
+    ? "خبير عقاري ومسّاح معتمد"
+    : "Géomètre Expert Foncier";
 
     const content =
         isArabic ? arabic : french;
