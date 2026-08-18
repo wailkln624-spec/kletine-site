@@ -44,6 +44,23 @@ nav {
     color: #777;
 }
 
+.header-phone {
+    display: block;
+    margin-top: 5px;
+    color: #0B1F33;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-phone:hover {
+    color: #D4AF63;
+}
+
+.phone-label {
+    font-weight: normal;
+}
+
 .nav-links {
     display: flex;
     gap: 25px;
