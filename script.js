@@ -28,14 +28,11 @@ const french = {
 
     subtitle: "GÉOMÈTRE EXPERT FONCIER AGRÉÉ N°883",
 
-    heroTitle: "Votre projet foncier,",
-    heroTitleSpan: "entre les mains de l'expérience",
+   heroTitle: "L’expertise foncière",
+heroTitleSpan: "au service de vos projets",
 
-    heroName: "Kletine Semiane",
-
-    heroDescription:
-        "Ingénieur d'État en Sciences Géographiques et Travaux Topographiques, avec 26 années d'expérience professionnelle, dont 14 années en qualité de Directeur du Cadastre dans différentes wilayas d'Algérie.",
-
+heroDescription:
+    "26 ans d'expérience cadastrale dont 14 ans comme directeur de Wilaya et une maîtrise parfaite des outils de pointe GPS RTK, SIG, ...",
     heroServices: "Découvrir nos services",
     heroContact: "Nous contacter",
 
@@ -124,14 +121,12 @@ const arabic = {
 
     subtitle: "خبير عقاري ومسّاح معتمد رقم 883",
 
-    heroTitle: "مشروعكم العقاري،",
-    heroTitleSpan: "بين أيدي الخبرة",
+    heroTitle: "الخبرة العقارية",
+heroTitleSpan: "في خدمة مشاريعكم",
 
-    heroName: "كليتين سميان",
-
-    heroDescription:
-        "مهندس دولة في العلوم الجغرافية والأعمال الطبوغرافية، بخبرة مهنية تمتد إلى 26 سنة، منها 14 سنة كمدير للمحافظة العقارية في عدة ولايات جزائرية.",
-
+   heroDescription:
+    "26 سنة من الخبرة في المجال العقاري والمساحي، منها 14 سنة كمدير على مستوى إحدى الولايات، مع إتقان تام لأحدث أدوات وتقنيات GPS RTK وSIG وغيرها.",
+    
     heroServices: "اكتشف خدماتنا",
     heroContact: "اتصل بنا",
 
