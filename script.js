@@ -30,12 +30,13 @@ const french = {
 
    heroTitle: "L’expertise foncière",
 heroTitleSpan: "au service de vos projets",
+    logoName: "KLETINE SEMIANE",
 
 heroDescription:
     "26 ans d'expérience cadastrale dont 14 ans comme directeur de Wilaya et une maîtrise parfaite des outils de pointe GPS RTK, SIG, ...",
-    heroServices: "Découvrir nos services",
-    heroContact: "Nous contacter",
 
+heroDescriptionShort:
+    "Ingénieur d'État en Sciences Géographiques et Travaux Topographiques.",
     stat1: "Ans d'expérience",
     stat2: "Ans comme Directeur du Cadastre",
     stat3: "Numéro d'agrément OGEF",
@@ -123,9 +124,13 @@ const arabic = {
 
     heroTitle: "الخبرة العقارية",
 heroTitleSpan: "في خدمة مشاريعكم",
+    logoName: "كليتين سميان",
 
    heroDescription:
     "26 سنة من الخبرة في المجال العقاري والمساحي، منها 14 سنة كمدير على مستوى إحدى الولايات، مع إتقان تام لأحدث أدوات وتقنيات GPS RTK وSIG وغيرها.",
+
+heroDescriptionShort:
+    "مهندس دولة في العلوم الجغرافية والأعمال الطبوغرافية.",
     
     heroServices: "اكتشف خدماتنا",
     heroContact: "اتصل بنا",
@@ -365,6 +370,8 @@ function setLanguage(language) {
 
     const content =
         isArabic ? arabic : french;
+    document.querySelector(".logo-name").textContent =
+    content.logoName;
 
 
     // ================= NAVIGATION =================
@@ -400,8 +407,11 @@ function setLanguage(language) {
     document.querySelector(".hero h2").textContent =
         content.heroName;
 
-    document.querySelector(".description").textContent =
-        content.heroDescription;
+    document.querySelector(".experience-highlight").textContent =
+    content.heroDescription;
+
+document.querySelector(".description").textContent =
+    content.heroDescriptionShort;
 
     document.querySelectorAll(".hero-buttons a")[0].textContent =
         content.heroServices;
