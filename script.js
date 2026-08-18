@@ -31,6 +31,7 @@ const french = {
    heroTitle: "L’expertise foncière",
 heroTitleSpan: "au service de vos projets",
     logoName: "KLETINE SEMIANE",
+    heroName: "Kletine Semiane",
 
 heroDescription:
     "26 ans d'expérience cadastrale dont 14 ans comme directeur de Wilaya et une maîtrise parfaite des outils de pointe GPS RTK, SIG, ...",
@@ -125,6 +126,7 @@ const arabic = {
     heroTitle: "الخبرة العقارية",
 heroTitleSpan: "في خدمة مشاريعكم",
     logoName: "كليتين سميان",
+    heroName: "كليتين سميان",
 
    heroDescription:
     "26 سنة من الخبرة في المجال العقاري والمساحي، منها 14 سنة كمدير على مستوى إحدى الولايات، مع إتقان تام لأحدث أدوات وتقنيات GPS RTK وSIG وغيرها.",
