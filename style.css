@@ -114,6 +114,14 @@ nav {
     color: #D4AF63;
     margin-bottom: 20px;
 }
+.experience-highlight {
+    color: #D4AF63;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    max-width: 850px;
+    margin-bottom: 30px;
+}
 
 .hero h1 {
     font-size: 64px;
@@ -386,6 +394,12 @@ footer {
 /* ================= MOBILE ================= */
 
 @media (max-width: 768px) {
+    
+    .experience-highlight {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
 
     /* Header */
 
