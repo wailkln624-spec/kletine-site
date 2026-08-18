@@ -418,17 +418,21 @@ footer {
         z-index: 1001;
     }
 
-   .language {
+ .language {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     position: absolute;
-    right: 55px;
+    right: 70px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1002;
 }
 
+.language button {
+    font-size: 12px;
+    padding: 4px 6px;
+}
     /* Navigation menu */
 
     .nav-links {
@@ -513,7 +517,6 @@ footer {
 .hero-buttons a {
     width: 100%;
     text-align: center;
-}
 }
 
     .hero h1 {
